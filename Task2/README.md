@@ -5,3 +5,5 @@
 Скрипт работает как GET-запрос, поэтому в конце ссылки надо добавить "?access_token={YOUR_TOKEN}&community_name={CHOSEN_COMMUNITY}", где access_token - токен для VK API, community_name - domain выбранного сообщества (указано в url).
 
 Пример работы алгоритма (созданная Google Sheet с картинками) - https://docs.google.com/spreadsheets/d/1LDMzdP_DOsysQUhQb53FnWvh9wgNJRh7yPbXyCRLvNI/edit?usp=sharing
+
+Поскольку скрипт работает относительно долго, то число картинок, которые добавляются в таблицу, ограничено 20.
